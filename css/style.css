@@ -1,0 +1,143 @@
+/* GENERAL SETTINGS */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+/* HEADER */
+.head-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+}
+.head-nav i {
+  color: #0052cc;
+}
+ul,
+li,
+a {
+  display: flex;
+  padding: 0px 20px;
+  color: black;
+  font-weight: 500;
+  color: #b6b5ba;
+}
+.pricing:hover {
+  color: #333;
+  font-weight: 600;
+}
+.head-btn {
+  display: flex;
+}
+.head-btn a {
+  margin-top: 10px;
+  font-weight: 500;
+}
+.head-btn button {
+  padding: 10px 25px;
+  background-color: #0052cc;
+  color: white;
+  outline: 0;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* SHOWCASE */
+.showcase .bold-txt {
+  font-weight: bolder;
+}
+.showcase h1 {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.showcase .first-p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b6b5ba;
+  margin-top: -15px;
+}
+
+.switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.switch i {
+  font-size: 40px;
+  margin: 0px 15px;
+  color: #0052cc;
+}
+/* PRICING */
+
+.prices {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  margin: 20px 180px;
+}
+.prices h3,
+h4,
+p,
+a {
+  padding: 16px;
+}
+.prices a {
+  background-color: #0052cc;
+  color: white;
+  border: 1px solid #b6b5ba;
+  display: block;
+  width: 180px;
+  text-align: center;
+  margin-top: 5px;
+  border-radius: 30px;
+}
+.prices i {
+  padding: 10px 10px;
+  background-color: #d5faee;
+  color: #38a882;
+  border-radius: 50%;
+  font-size: 14px;
+}
+.price-1 a {
+  margin-top: 90px;
+  background-color: #fff;
+  color: #0052cc;
+  font-weight: 600;
+}
+.price-3 a {
+  background-color: #fff;
+  color: #0052cc;
+  font-weight: 600;
+}
+.check-icons {
+  padding: 5px;
+}
+.month {
+  color: #b6b5ba;
+}
+
+.basic-price {
+  color: #38a882;
+}
+.prices h3 {
+  font-size: 24px;
+}
+.prices h4 {
+  color: #333;
+}
+.prices p {
+  color: #b6b5ba;
+}
